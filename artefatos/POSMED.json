@@ -1,0 +1,92 @@
+{
+	"data": {
+		"paciente": [
+			{
+				"id": 1,
+				"nome": "Guilherme",
+				"sobrenome": "Brandão",
+				"cpf": 788903049039,
+				"convenio": {
+					"nome": "BC",
+					"operadora": "BC",
+					"codigo_ans": "8377458"
+				},
+				"telefones": [
+					{
+						"numero": "987155799"
+					}
+				],
+				"sexo": "M",
+				"dt_nascimento": "28/09/1989",
+				"avatarUrl": "web.sabedeusoque.com/avatar/aquiFicamAvateres",
+				"enderecos": [
+					{
+						"logradouro": "R. Ernesto de Paula Santos",
+						"numero": 175,
+						"complemento": "AP 1601",
+						"bairro": "Boa Viagem",
+						"cidade": "Recife"
+					}
+				],
+				"consultas": [
+					{
+						"nr_registro": "98723478",
+						"diagnostico": "Preguiça crônica",
+						"data_consulta": "28/03/2017",
+						"medico": {
+							"crm": "2342",
+							"nome": "Sóstenes"
+						},
+						"cuidados": [
+							{
+								"descricao": null
+							}
+						],
+						"medicamentos": [
+							{
+								"nome": "Café",
+								"frequencia": "2x ao dia",
+								"periodo": {
+									"data_inicial": "29/03/2017",
+									"data_final": "25/12/2017"
+								},
+								"posologia": "150ml"
+							}
+						]
+					}
+				],
+				"metas": [
+					{
+						"descricao": "Andar por ai",
+						"frequencia": "Diariamente",
+						"prazo": "Até o fim dos tempos"
+					}
+				]
+			}
+		],
+		"chat": {
+			"title": "",
+			"nome_usuario": "",
+			"avatarUrl": "",
+			"timestamp": ""
+		},
+		"notificacao": {
+			"titulo": "",
+			"conteudo": "",
+			"iconUri": "",
+			"timeStamp": ""
+		},
+		"medicos": [
+			{
+				"nome": "Sóstenes",
+				"crm": "2342",
+				"especializacao": "Pneumologista"
+			},
+			{
+				"nome": "Derick",
+				"crm": "23444",
+				"especializacao": "Proctologista"
+			}
+		]
+	}
+}

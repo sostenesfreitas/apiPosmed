@@ -1,0 +1,24 @@
+{
+  "name": "posmed",
+  "version": "1.0.0",
+  "description": "Projeto de conclusão de curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sandmandroid@bitbucket.org/posmed/posmed.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ibm"
+  ],
+  "author": "team posmed",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/posmed/posmed#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  }
+}
