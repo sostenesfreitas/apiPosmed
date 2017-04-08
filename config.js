@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+// esse be-mean-pokemons eh o nome do banco
 const uriDB = 'mongodb://localhost/be-mean-pokemons';
-
+// arquivo de conexao
 mongoose.connect(uriDB);
 mongoose.connection.on('connected', function(){
 console.log("Mongo default connection connected to " + uriDB);

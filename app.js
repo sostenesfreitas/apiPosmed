@@ -5,7 +5,8 @@ const bodyParser = require('body-parser')
 const pacientes = 'pacientes'
 const consultas = 'consultas'
 const medicos = 'medicos'
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
+app.use(bodyParser.json());
+var urlencodedParser = bodyParser.urlencoded({ extended: true })
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -13,8 +14,9 @@ app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-
+// aki eh bem simples ainda vou da uma refatorada pra diminuir mais kk
 app.post ('/paciente', urlencodedParser, (req, res) => {
+  // essa query ta grande mais da pra diminuir passo o tipo do requisição "find, create"
   require('./DNA/dna')(req.query, pacientes, res, req)
 })
 

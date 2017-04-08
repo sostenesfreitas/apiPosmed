@@ -1,5 +1,5 @@
 'use strict';
-
+//schema do banco
 const mongoose = require('mongoose')
   , Schema = mongoose.Schema
 const _molecule = {
